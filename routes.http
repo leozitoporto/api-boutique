@@ -5,8 +5,8 @@ POST {{baseUrl}}/accounts
  Content-Type: application/json
 
     {
-        "name": "teste3",
-        "email":"teste3terra.com.br",
+        "name": "Leonardo",
+        "email":"leonardo@zungasoft.net",
         "password": "123456"
     }
 
@@ -14,11 +14,10 @@ POST {{baseUrl}}/accounts
 
 
 # @name Authenticate
-POST {{baseUrl}}/accounts
+POST {{baseUrl}}/sessions
  Content-Type: application/json
 
     {
-        "name": "teste3",
-        "email":"teste3@terra.com.br",
+        "email":"leonardo@zungasoft.net",
         "password": "123456"
     }

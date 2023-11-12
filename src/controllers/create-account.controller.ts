@@ -39,7 +39,7 @@ export class CreateAcountController {
       throw new ConflictException('User with same e-mail addres already exists')
     }
 
-    const hashedPassword = await hash(password, '8')
+    const hashedPassword = await hash(password, 8)
 
     await this.prisma.user.create({
       data: {
