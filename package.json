@@ -22,10 +22,13 @@
     "@nestjs/passport": "^10.0.2",
     "@nestjs/platform-express": "^10.0.0",
     "@prisma/client": "^5.5.2",
+    "@types/string": "^0.0.34",
     "bcryptjs": "^2.4.3",
     "passport-jwt": "^4.0.1",
     "reflect-metadata": "^0.1.13",
     "rxjs": "^7.8.1",
+    "string": "^3.3.3",
+    "unicode": "^14.0.0",
     "zod": "^3.22.4",
     "zod-validation-error": "^2.1.0"
   },
